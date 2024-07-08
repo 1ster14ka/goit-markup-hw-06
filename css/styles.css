@@ -803,21 +803,25 @@ textarea {
   }
 }
 
-/* @media (max-width: 320px) {
+@media (max-width: 320px) {
   .modal-overlay {
     max-width: 288px;
-    margin: 0 auto;
-    margin-top: 100px;
-    padding: 72px 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 8px;
+    overflow-y: auto;
   }
 
   .modal {
+    transform: none;
+    top: 0;
+    left: 0;
     max-width: 288px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 72px 0;
+    padding-left: 16px;
+    padding-right: 16px;
   }
-} */
+}
 
 @media (max-width: 320px) {
   .mobile-modal {
@@ -879,15 +883,6 @@ textarea {
   .info-item:first-child a {
     color: #4d5ae5;
   }
-  /* 
-  .team-list-icons {
-    justify-content: flex-start;
-    margin-top: 48px;
-    padding-left: 16px;
-  } */
-  /* .team-list-icons.section-main {
-    gap: 40px;
-  } */
 }
 .mobile-menu {
   position: relative;
