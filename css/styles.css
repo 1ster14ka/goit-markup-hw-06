@@ -837,6 +837,7 @@ textarea {
 
     opacity: 0;
     pointer-events: none;
+    overflow-y: auto;
   }
   .mobile-menu {
     width: 100%;
@@ -883,6 +884,9 @@ textarea {
   .info-item:first-child a {
     color: #4d5ae5;
   }
+}
+.mobile-icons {
+  padding-bottom: 40px;
 }
 .mobile-menu {
   position: relative;
